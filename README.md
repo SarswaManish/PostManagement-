@@ -1,11 +1,11 @@
 # PostManagement-
-# Fire up MongoDB container
+#for mongodb
 docker run -d -p 27017:27017 --restart unless-stopped --name commentsmongo mongo
 
-# Fire up Redis container
+#for reddis 
 docker run -d -p 6379:6379 --restart unless-stopped --name commentsredis redis
 
-# Go into the backend directory
+# in backend directory
 cd comment-system/backend
 
 # Install dependencies
